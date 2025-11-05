@@ -1072,4 +1072,34 @@ p.sht__subtitle {
         padding: 30px 20px;
       }
 
+      .btn-mark-cl {
+        transform: translate(0px, 0px) !important;
+    }
+
+    .sht__title.fw-bold {
+      font-size: 40px !important;
+    }
+
+    p.sht__subtitle {
+      font-size: 22px;
+    }
+
+    .btn-mark-cl .btn-header-tted-body {
+      padding: 16px 30px;
+    }
+
+    .discover-content {
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+
+    .mt-5.text-center.locationhead h3 {
+    margin: 50px 0px !important;
+    font-size: 30px;
+}
+
+.row.g-4.justify-content-center {
+    padding: 0px 20px;
+}
+
     }
