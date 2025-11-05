@@ -73,7 +73,7 @@
  @media (min-width: 992px) {
      body.marketing:before {
          animation: parallax linear;
-         background-image: url(../img/design-bg.svg);
+         background-image: url(img/design-bg.svg);
          background-repeat: no-repeat;
          background-size: cover;
          content: "";
@@ -596,7 +596,7 @@ p.sht__subtitle {
  /* Footer Styles */
 
  footer {
-     background-image: url(../img/bg-ftr.jpg);
+     background-image: url(img/bg-ftr.jpg);
      color: #fff;
      padding: 60px 0 0;
      font-family: 'Poppins', sans-serif;
@@ -1067,4 +1067,5 @@ p.sht__subtitle {
       .activity-item {
         padding: 30px 20px;
       }
+
     }
