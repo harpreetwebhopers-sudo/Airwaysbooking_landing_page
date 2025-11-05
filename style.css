@@ -434,6 +434,10 @@
      }
  }
 
+ .search__hero__mob__icon img {
+    height: 480px;
+}
+
  .img-discover img {
      z-index: 1;
      position: relative;
