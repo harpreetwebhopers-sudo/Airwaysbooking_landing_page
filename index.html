@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airways Car Rental</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<script>
+    document.querySelectorAll('.nav-item.dropdown').forEach(function (dropdown) {
+        dropdown.addEventListener('mouseleave', function () {
+            const menu = this.querySelector('.dropdown-menu');
+            if (menu) menu.classList.remove('show');
+        });
+    });
+</script>
+
+<body>
+    <header>
+        <!-- Top Contact Bar -->
+        <div class="top-head">
+            <div class="container-fluid d-flex justify-content-between align-items-center px-4 topaheadDiv">
+                <div class="topheader">                 
+                    <a href="mailto:info@airwaysmanagebooking.com">info@airwaysmanagebooking.com</a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <img src="https://www.airwaysmanagebooking.com/assets/img/flag.png" alt="flag" class="me-3"
+                        width="25">
+                    <a href="tel:+1-888-838-0309">
+                        <img src="https://www.airwaysmanagebooking.com/assets/img/call.png" alt="call" class="me-2"
+                            width="18">
+                        +1-888-838-0309
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid px-4">
+                <a class="navbar-brand" href="/">
+                    <img src="https://www.airwaysmanagebooking.com/assets/img/logo.png" alt="Airways Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="manageDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Manage Booking</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/delta-airlines-manage-booking">Delta Airlines Manage
+                                        Booking</a></li>
+                                <li><a class="dropdown-item" href="/american-airlines-manage-booking">American Airlines
+                                        Manage Booking</a></li>
+                                <li><a class="dropdown-item" href="/emirates-airlines-manage-booking">Emirates Airlines
+                                        Manage Booking</a></li>
+                                <li><a class="dropdown-item" href="/air-france-manage-booking-policy">Air France Manage
+                                        Booking</a></li>
+                                <li><a class="dropdown-item" href="/klm-manage-booking-policy">KLM Manage Booking</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/spirit-airlines-manage-booking-policy">Spirit
+                                        Airlines Manage Booking</a></li>
+                                <li><a class="dropdown-item" href="/turkish-airlines-manage-booking-policy">Turkish
+                                        Airlines Manage Booking</a></li>
+                                <li><a class="dropdown-item" href="/lufthansa-airlines-manage-booking-policy">Lufthansa
+                                        Airlines Manage Booking</a></li>
+                                <li><a class="dropdown-item" href="/southwest-airlines-manage-booking-policy">Southwest
+                                        Airlines Manage Booking</a></li>
+                                <li><a class="dropdown-item" href="/qatar-airways-manage-booking-policy">Qatar Airways
+                                        Manage Booking</a></li>
+                                <li><a class="dropdown-item" href="/british-airways-manage-booking-policy">British
+                                        Airways Manage Booking</a></li>
+                                <li><a class="dropdown-item" href="/el-al-manage-booking-policy">EL AL Manage
+                                        Booking</a></li>
+                                <li><a class="dropdown-item" href="/etihad-airways-manage-booking-policy">Etihad Airways
+                                        Manage Booking</a></li>
+                                <li><a class="dropdown-item" href="/all-nippon-airways-ana-manage-booking-policy">All
+                                        Nippon Airways Manage Booking (ANA)</a></li>
+                                <li><a class="dropdown-item" href="/kenya-airways-manage-booking-policy">Kenya Airways
+                                        Manage Booking</a></li>
+                                <li><a class="dropdown-item" href="/thai-airways-manage-booking-policy">Thai Airways
+                                        Manage Booking</a></li>
+                                <li><a class="dropdown-item" href="/kuwait-airways-manage-booking-policy">Kuwait Airways
+                                        Manage Booking</a></li>
+                                <li><a class="dropdown-item" href="/breeze-airways-manage-booking-policy">Breeze Airways
+                                        Manage Booking</a></li>
+                                <li><a class="dropdown-item" href="/united-airlines-manage-booking-policy">United
+                                        Airlines Manage Booking</a></li>
+                                <li><a class="dropdown-item" href="/ita-airways-manage-booking">ITA Airways Manage
+                                        Booking</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="travelDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Travel</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://www.airwaysmanagebooking.com/travel/popular-destination">Popular
+                                        Destinations</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.airwaysmanagebooking.com/travel/business-class">Business
+                                        Class</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.airwaysmanagebooking.com/travel/first-class">First Class</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.airwaysmanagebooking.com/travel/group-flights">Group
+                                        Flights</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="#">Deals</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="top-heading-marketing pt-5">
+        <div class="search-hero-container">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <div class="search_hero__content__wrapper">
+                        <div class="sht__title fw-bold">Rent a car<br>in just a Phone Call</div>
+                        <p class="sht__subtitle"><span class="color-subtitle">Unlock cars 24/7</span> with your phone,
+                            and go!</p>
+                        <div class="btn-mark-cl"><a href="tel:+1-888-838-0309"
+                                class="fw-bold text-decoration-none btn-header-tted-body"><i class="fa fa-phone"></i>
+                                +1-888-838-0309</a></div>
+                    </div>
+                    <div class="search__hero__mob__icon"><img src="/img/mob-icon-mkt.svg" alt=""></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Discover the new way to rent a car Section -->
+
+    <section class="discover-section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="discover-card">
+                        <img src="/img/20241104071014.jpg" alt="Discover Car" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="discover-content">
+                        <h2>Discover the new way <br><span>to rent a car</span></h2>
+                        <p class="mt-3 text-secondary">
+                            Choose from thousands of cars available from private and professional owners near you.
+                        </p>
+
+                        <div class="mt-4">
+                            <div class="discover-feature d-flex mb-3">
+                                <i class="fa-solid fa-car"></i>
+                                <div>
+                                    <p class="fw-bold">Flexible Rentals</p>
+                                    <small class="text-secondary">Cancel or change most bookings for free up to 48 hours
+                                        before pick-up.</small>
+                                </div>
+                            </div>
+
+                            <div class="discover-feature d-flex mb-3">
+                                <i class="fa-solid fa-check"></i>
+                                <div>
+                                    <p class="fw-bold">No Hidden Fees</p>
+                                    <small class="text-secondary">Know exactly what you’re paying.</small>
+                                </div>
+                            </div>
+
+                            <div class="discover-feature d-flex mb-4">
+                                <i class="fa-solid fa-user"></i>
+                                <div>
+                                    <p class="fw-bold">No Waiting Around</p>
+                                    <small class="text-secondary">Book a car instantly near you. No lines. No
+                                        paperwork.</small>
+                                </div>
+                            </div>
+
+                            <a href="tel:+1-888-838-0309" class="discover-btn text-decoration-none fw-bold">
+                                <i class="fa-solid fa-phone"></i> +1-888-838-0309
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Locations Section -->
+            <div class="mt-5 text-center locationhead">
+                <h3 class="fw-bold mb-4">Available All Over the United States</h3>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-6 col-md-3 col-lg-3">
+                        <div class="location-card">
+                            <img src="/img/las-vegas1.webp" alt="Las Vegas">
+                            <div class="location-name">Las Vegas</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-3">
+                        <div class="location-card">
+                            <img src="/img/chicago.webp" alt="Chicago">
+                            <div class="location-name">Chicago</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-3">
+                        <div class="location-card">
+                            <img src="/img/denver.webp" alt="Denver">
+                            <div class="location-name">Denver</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-3">
+                        <div class="location-card">
+                            <img src="/img/honolulu.webp" alt="Honolulu">
+                            <div class="location-name">Honolulu</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-3">
+                        <div class="location-card">
+                            <img src="/img/houston.webp" alt="Houston">
+                            <div class="location-name">Houston</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-3">
+                        <div class="location-card">
+                            <img src="/img/los-angeles.webp" alt="Los Angeles">
+                            <div class="location-name">Los Angeles</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-3">
+                        <div class="location-card">
+                            <img src="/img/phoenix.webp" alt="Phoenix">
+                            <div class="location-name">Phoenix</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-3">
+                        <div class="location-card">
+                            <img src="/img/san-francisco.webp" alt="San Francisco">
+                            <div class="location-name">San Francisco</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Discover the new way to rent a car Section End-->
+
+    <!-- 3 Column Section start-->
+    <section class="activity-section">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2>WHY TO BOOK WITH US</h2>
+            </div>
+
+            <div class="threeColumn row justify-content-center g-4">
+                <div class="col-lg-4 col-md-6 shadow-box">
+                    <div class="activity-item">
+                        <div class="activity-icon">
+                            <img src="/img/best-price.png" alt="Best Price">
+                        </div>
+                        <div class="activity-content">
+                            <h4>Best Price Assurance</h4>
+                            <p>We assure you to give the cheapest airfare on 100+ destinations. Across thousands of
+                                sites, you will find the lowest price here.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="activity-item">
+                        <div class="activity-icon">
+                            <img src="/img/customer_support.png" alt="Customer Support">
+                        </div>
+                        <div class="activity-content">
+                            <h4>24×7 Customer Support</h4>
+                            <p>Our team is 24/7 available to assist you regarding any issue, regardless of the time zone
+                                or day of the week.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="activity-item">
+                        <div class="activity-icon">
+                            <img src="/img/phone-exclusive.png" alt="Phone Exclusive Deals">
+                        </div>
+                        <div class="activity-content">
+                            <h4>Phone Exclusive Deals</h4>
+                            <p>We work with top-notch airlines to secure you exclusive airfare deals that you can also
+                                book over the phone.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 3 Column Section End-->
+
+    <!--Cards enquiry section-->
+
+    <section class="innerpage-wrapper py-5">
+        <div class="container">
+            <div class="page-heading">
+                <h2>Car Rental</h2>
+                <hr class="heading-line">
+            </div>
+
+            <div class="row">
+                <!-- LEFT SIDE -->
+                <div class="col-lg-9">
+                    <div class="row">
+                        <!-- Card 1 -->
+                        <div class="col-md-4">
+                            <div class="cr-grid-block">
+                                <div class="cr-grid-img">
+                                    <img src="/img/san-diego.webp" alt="San Diego">
+                                </div>
+                                <div class="cr-grid-info">
+                                    <h3 class="block-title">San Diego</h3>
+                                    <ul class="list-inline car-features">
+                                        <li class="list-inline-item"><i class="fa fa-user"></i> 4</li>
+                                        <li class="list-inline-item"><i class="fa fa-briefcase"></i> 4</li>
+                                        <li class="list-inline-item"><i class="fa fa-map-marker"></i> GPS</li>
+                                        <li class="list-inline-item"><i class="fa fa-tint"></i> Fuel</li>
+                                        <li class="list-inline-item"><i class="fa fa-music"></i> Music</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-orange w-100 mb-2">Enquiry Now</a>
+                                    <a href="tel:+1-888-838-0309" class="btn btn-orange w-100">Call Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Copy & Modify for other cards -->
+                        <div class="col-md-4">
+                            <div class="cr-grid-block">
+                                <div class="cr-grid-img">
+                                    <img src="/img/san francisco.webp" alt="San Francisco">
+                                </div>
+                                <div class="cr-grid-info">
+                                    <h3 class="block-title">San Francisco</h3>
+                                    <ul class="list-inline car-features">
+                                        <li class="list-inline-item"><i class="fa fa-user"></i> 4</li>
+                                        <li class="list-inline-item"><i class="fa fa-briefcase"></i> 4</li>
+                                        <li class="list-inline-item"><i class="fa fa-map-marker"></i> GPS</li>
+                                        <li class="list-inline-item"><i class="fa fa-tint"></i> Fuel</li>
+                                        <li class="list-inline-item"><i class="fa fa-music"></i> Music</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-orange w-100 mb-2">Enquiry Now</a>
+                                    <a href="tel:+1-888-838-0309" class="btn btn-orange w-100">Call Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="cr-grid-block">
+                                <div class="cr-grid-img">
+                                    <img src="/img/las-vegas.webp" alt="Las Vegas">
+                                </div>
+                                <div class="cr-grid-info">
+                                    <h3 class="block-title">Las Vegas</h3>
+                                    <ul class="list-inline car-features">
+                                        <li class="list-inline-item"><i class="fa fa-user"></i> 4</li>
+                                        <li class="list-inline-item"><i class="fa fa-briefcase"></i> 4</li>
+                                        <li class="list-inline-item"><i class="fa fa-map-marker"></i> GPS</li>
+                                        <li class="list-inline-item"><i class="fa fa-tint"></i> Fuel</li>
+                                        <li class="list-inline-item"><i class="fa fa-music"></i> Music</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-orange w-100 mb-2">Enquiry Now</a>
+                                    <a href="tel:+1-888-838-0309" class="btn btn-orange w-100">Call Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="cr-grid-block">
+                                <div class="cr-grid-img">
+                                    <img src="/img/Orlando.webp" alt="Orlando">
+                                </div>
+                                <div class="cr-grid-info">
+                                    <h3 class="block-title">Orlando</h3>
+                                    <ul class="list-inline car-features">
+                                        <li class="list-inline-item"><i class="fa fa-user"></i> 4</li>
+                                        <li class="list-inline-item"><i class="fa fa-briefcase"></i> 4</li>
+                                        <li class="list-inline-item"><i class="fa fa-map-marker"></i> GPS</li>
+                                        <li class="list-inline-item"><i class="fa fa-tint"></i> Fuel</li>
+                                        <li class="list-inline-item"><i class="fa fa-music"></i> Music</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-orange w-100 mb-2">Enquiry Now</a>
+                                    <a href="tel:+1-888-838-0309" class="btn btn-orange w-100">Call Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="cr-grid-block">
+                                <div class="cr-grid-img">
+                                    <img src="/img/Dallas.webp" alt="Dallas">
+                                </div>
+                                <div class="cr-grid-info">
+                                    <h3 class="block-title">Dallas</h3>
+                                    <ul class="list-inline car-features">
+                                        <li class="list-inline-item"><i class="fa fa-user"></i> 4</li>
+                                        <li class="list-inline-item"><i class="fa fa-briefcase"></i> 4</li>
+                                        <li class="list-inline-item"><i class="fa fa-map-marker"></i> GPS</li>
+                                        <li class="list-inline-item"><i class="fa fa-tint"></i> Fuel</li>
+                                        <li class="list-inline-item"><i class="fa fa-music"></i> Music</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-orange w-100 mb-2">Enquiry Now</a>
+                                    <a href="tel:+1-888-838-0309" class="btn btn-orange w-100">Call Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="cr-grid-block">
+                                <div class="cr-grid-img">
+                                    <img src="/img/toronto.webp" alt="New York">
+                                </div>
+                                <div class="cr-grid-info">
+                                    <h3 class="block-title">New York</h3>
+                                    <ul class="list-inline car-features">
+                                        <li class="list-inline-item"><i class="fa fa-user"></i> 4</li>
+                                        <li class="list-inline-item"><i class="fa fa-briefcase"></i> 4</li>
+                                        <li class="list-inline-item"><i class="fa fa-map-marker"></i> GPS</li>
+                                        <li class="list-inline-item"><i class="fa fa-tint"></i> Fuel</li>
+                                        <li class="list-inline-item"><i class="fa fa-music"></i> Music</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-orange w-100 mb-2">Enquiry Now</a>
+                                    <a href="tel:+1-888-838-0309" class="btn btn-orange w-100">Call Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Add more cards below for other cities... -->
+                    </div>
+
+                    <div class="pages">
+                        <h3>Visit zeptoair to explore the car rentals at affordable rates.</h3>
+                        <p>
+                            Whether you're planning to go out on a road trip, need a car for a weekend vacation, or
+                            simply require transportation for a business trip, we have a wide range of varieties to
+                            fit your pocket and needs. Our flexible rental options ensure you get the perfect car
+                            for your travel experience. We have an easy booking process and reliable services. Book
+                            your rental today and start your journey on the right wheels!
+                        </p>
+                    </div><!-- end pages -->
+
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="col-lg-3">
+                    <div class="side-bar-block mb-4">
+                        <h3>Enquiry</h3>
+                        <form>
+                            <input type="text" class="form-control" placeholder="Name">
+                            <select class="form-control">
+                                <option>Flights</option>
+                                <option>Hotel</option>
+                                <option>Car</option>
+                                <option>Cruise</option>
+                            </select>
+                            <input type="email" class="form-control" placeholder="Email">
+                            <input type="text" class="form-control" placeholder="Phone">
+                            <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+                            <button class="btn btn-orange mt-2">Enquiry</button>
+                        </form>
+                    </div>
+
+                    <div class="support-block">
+                        <h3>Need Help</h3>
+                        <p>If you need any help feel-free contact us at</p>
+                        <div class="support-contact d-flex align-items-center">
+                            <i class="fa fa-phone"></i>
+                            <p class="m-0"><a href="tel:+1-888-838-0309">+1-888-838-0309</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Cards enquiry section end-->
+
+    <!-- Footer Section -->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row justify-content-between">
+                <!-- Contact -->
+                <div class="col-lg-2 col-md-6 btm-block">
+                    <div class="btm-hd">Contact Us</div>
+                    <ul class="list-unstyled">
+                        <li><i class="fa-solid fa-location-dot"></i> 2108 N St Ste N,<br> Sacramento, California,
+                            <br>United States, 95816</li>
+                        <li><i class="fa-solid fa-phone"></i> <a href="tel:+1-844-763-8011">1-844-763-8011</a></li>
+                        <li><i class="fa-solid fa-envelope"></i> <a
+                                href="mailto:support@zeptoair.com">support@zeptoair.com</a></li>
+                    </ul>
+                    <img src="/img/logo.png" alt="Airways Logo">
+                </div>
+
+                <!-- Services -->
+                <div class="col-lg-2 col-md-6 btm-block">
+                    <div class="btm-hd">Services</div>
+                    <ul class="list-unstyled">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/flights">Flights</a></li>
+                        <li><a href="/hotel">Hotel</a></li>
+                        <li><a href="/car-rentals">Car Rental</a></li>
+                        <li><a href="/cheap-flights">Flights By Destinations</a></li>
+                        <li><a href="/sitemap">Site Map</a></li>
+                    </ul>
+                </div>
+
+                <!-- Top Flight Routes -->
+                <div class="col-lg-3 col-md-6 btm-block">
+                    <div class="btm-hd">Top Flights Routes</div>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Flights to Atlanta</a></li>
+                        <li><a href="#">Flights to San Francisco</a></li>
+                        <li><a href="#">Flights to WashingtonDC</a></li>
+                        <li><a href="#">Flights to Boston</a></li>
+                        <li><a href="#">Flights to Amsterdam</a></li>
+                        <li><a href="#">Flights to London</a></li>
+                        <li><a href="#">Flights to Vietnam</a></li>
+                        <li><a href="#">Flights to Indonesia</a></li>
+                        <li><a href="#">Flights to Japan</a></li>
+                        <li><a href="#">Flights to Philadelphia</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal Links -->
+                <div class="col-lg-2 col-md-6 btm-block">
+                    <div class="btm-hd">Legal Links</div>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Price Match Promise</a></li>
+                        <li><a href="#">Post Ticketing Service Fees</a></li>
+                        <li><a href="#">Fulfillment Policy</a></li>
+                        <li><a href="#">Cookies Policy</a></li>
+                        <li><a href="#">Fare Disclosure</a></li>
+                        <li><a href="#">Advertiser Disclosure</a></li>
+                        <li><a href="#">Our Service Fee</a></li>
+                    </ul>
+                </div>
+
+                <!-- About -->
+                <div class="col-lg-3 col-md-12 btm-block">
+                    <div class="btm-hd">About Us</div>
+                    <p>Zeptoair is here to make your travel plans real. We have a variety of services, including car
+                        rentals, cruises, flights, and hotels. Enjoy the best value at the lowest cost with our lowest
+                        fare promise. We provide pricing comparisons, immediate refunds, rebooking choices, and a ton of
+                        other fascinating features.</p>
+                </div>
+            </div>
+
+            <hr class="border-secondary my-4">
+
+            <div class="text-center ex-small">
+                ZeptoAir LLC is a trusted travel service provider, verified with Dun & Bradstreet (D-U-N-S® Number:
+                119503714) and located at 2108 N St Ste N, Sacramento, California, USA. We’re committed to delivering
+                reliable customer support 7 days a week. For assistance, call us at
+                <a href="tel:+1-888-838-0309">+1-888-838-0309</a> or email <a
+                    href="mailto:support@zeptoair.com">support@zeptoair.com</a>.
+            </div>
+
+            <div class="text-center ex-small">
+                All users agree to Zeptoair's <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.
+            </div>
+
+            <div class="text-center ex-small mb-4">
+                All users are subject to <a href="#">Our Service Fees</a> and <a href="#">Post Ticketing Fees</a>. Read
+                our <a href="#">Cookies Policy</a> for details.
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright">
+            Copyright by © 2024 Airways Manage Booking
+        </div>
+
+        <!-- Scroll to Top -->
+        <button class="scroll-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <!-- Footer Section End -->
+
+</body>
+
+</html>
