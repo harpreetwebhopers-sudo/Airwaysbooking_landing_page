@@ -1062,6 +1062,10 @@ p.sht__subtitle {
       position: relative;
     }
 
+    .border-secondary {
+      border-color: fff!important;
+    }
+
     /* Responsive adjustments */
     @media (max-width: 768px) {
       .activity-section {
