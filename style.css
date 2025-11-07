@@ -1089,6 +1089,10 @@ p.sht__subtitle {
         padding: 60px 0;
       }
 
+      .top-heading-marketing.pt-5 {
+    display: none !important;
+}
+
       .activity-item {
         padding: 30px 20px;
       }
