@@ -393,9 +393,6 @@
          display: none;
      }
 
-     .btn-mark-cl {
-         transform: translate(25%, 0px);
-     }
  }
 
  @media(max-width:1380px) and (min-width:993px) {
@@ -1123,3 +1120,4 @@ p.sht__subtitle {
 }
 
     }
+
