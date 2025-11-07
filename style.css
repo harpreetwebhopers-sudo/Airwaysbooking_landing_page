@@ -821,7 +821,7 @@ p.sht__subtitle {
         display: block;
       }
       .sht__title{
-        display: none;
+        display: none !important;
       }
     }
 
