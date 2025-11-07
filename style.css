@@ -1110,4 +1110,12 @@ p.sht__subtitle {
     margin-bottom: 40px;
 }
 
+.navbar .container-fluid{
+      padding-left: 0px !important;
+}
+
+.navbar {
+    padding: 0px !important;
+}
+
     }
