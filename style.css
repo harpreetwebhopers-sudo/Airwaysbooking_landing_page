@@ -1189,3 +1189,32 @@ footer#footer img {
 /* .top-heading-marketingMobilebannerSection{
   display: none;
 } */
+
+/* Floating call button (visible only on mobile) */
+.call-now-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #ffcc00;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.call-now-btn i {
+    font-size: 18px;
+}
+
+.call-now-btn:hover {
+    background-color: #ffc107;
+    color: #000;
+    transform: translateY(-3px);
+}
