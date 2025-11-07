@@ -818,7 +818,7 @@ p.sht__subtitle {
       }
 
       .sht__titleMobile{
-        display: block;
+        display: block !important;
       }
       .sht__title{
         display: none !important;
