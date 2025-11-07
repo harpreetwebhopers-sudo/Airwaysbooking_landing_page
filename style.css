@@ -1099,7 +1099,7 @@ p.sht__subtitle {
 }
 
 .btn-mark-cl .btn-header-tted-body {
-    padding: 10px 17px;
+    padding: 10px 20px !important;
     font-size: 16px !important;
 }
 
