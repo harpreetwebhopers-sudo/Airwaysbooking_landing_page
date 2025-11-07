@@ -1125,19 +1125,21 @@ p.sht__subtitle {
 #car_rentals .pages {
     margin-bottom: 30px;
 }
-}
 
-@media (max-width: 1380px) and (min-width: 993px) {
-    .search__hero__mob__icon img {
-    height: auto;
-  }
-
-  .sht__title {
+.sht__title {
     font-size: 60px;
   }
 
   .sht__subtitle {
     font-size: 24px;
   }
-
 }
+
+/* @media (min-width: 993px) {
+    .search__hero__mob__icon img {
+    height: auto;
+  }
+
+  
+
+} */
