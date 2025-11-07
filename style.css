@@ -370,7 +370,7 @@
      }
 
      .btn-mark-cl .btn-header-tted-body {
-         padding: 16px 80px;
+         padding: 16px 40px;
          background-color: #3793d7;
          font-size: 18px !important;
          color: #fff;
@@ -437,7 +437,7 @@
  }
 
  .btn-mark-cl .btn-header-tted-body {
-     padding: 16px 80px;
+     padding: 16px 40px;
      background-color: #3793d7;
      font-size: 32px;
      color: #fff;
@@ -577,7 +577,7 @@ p.sht__subtitle {
 }
 
 .btn-mark-cl .btn-header-tted-body {
-    padding: 16px 80px;
+    padding: 16px 40px;
     background-color: #02005c;
     font-size: 32px;
     color: #fff;
@@ -1089,7 +1089,7 @@ p.sht__subtitle {
     }
 
     .btn-mark-cl .btn-header-tted-body {
-      padding: 16px 30px;
+      padding: 16px 40px;
     }
 
     .discover-content {
