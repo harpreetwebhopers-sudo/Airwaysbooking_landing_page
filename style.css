@@ -1135,11 +1135,6 @@ p.sht__subtitle {
   }
 }
 
-/* @media (min-width: 993px) {
-    .search__hero__mob__icon img {
-    height: auto;
-  }
-
-  
-
-} */
+footer#footer img {
+    margin-bottom: 20px;
+}
