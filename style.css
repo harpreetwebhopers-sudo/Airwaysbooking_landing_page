@@ -566,7 +566,9 @@
 
  .top-heading-marketing.pt-5 {
     /* background-color: #3793d7; */
-        background: url(img/Banner.png);
+    background: url(img/Banner.png);
+    height: 600px;
+    background-size: cover;
 }
 
 .sht__title.fw-bold {
@@ -1121,6 +1123,13 @@ p.sht__subtitle {
 
 .navbar {
     padding: 15px 0px !important;
+}
+
+.top-heading-marketing.pt-5 {
+    /* background-color: #3793d7; */
+    background: url(img/Banner.png);
+    height: auto;
+    background-size: cover;
 }
 
     }
