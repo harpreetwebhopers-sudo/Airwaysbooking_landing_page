@@ -817,17 +817,17 @@ p.sht__subtitle {
         font-size: 1.6rem;
       }
 
-    .MobilebannerSection {
+    /* .MobilebannerSection {
         display: block !important;
-    }
+    } */
 
-    .top-heading-marketingMobilebannerSection .pt-5 {
-    /* background-color: #3793d7; */
+    /* .top-heading-marketingMobilebannerSection .pt-5 {
+    
     background: url(img/Mobile-Banner.jpg);
     height: auto;
     background-size: cover;
     background-position: center;
-}
+} */
 
     }
 
@@ -1143,13 +1143,13 @@ p.sht__subtitle {
     padding: 15px 0px !important;
 }
 
-.top-heading-marketing.pt-5 {
-    /* background-color: #3793d7; */
+/* .top-heading-marketing.pt-5 {
+    
     background: url(img/Banner.png);
     height: auto;
     background-size: cover;
     background-position: center;
-}
+} */
 
     }
 
@@ -1171,6 +1171,6 @@ footer#footer img {
     margin-bottom: 20px;
 }
 
-.top-heading-marketingMobilebannerSection{
+/* .top-heading-marketingMobilebannerSection{
   display: none;
-}
+} */
