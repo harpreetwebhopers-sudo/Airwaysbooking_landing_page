@@ -821,7 +821,7 @@ p.sht__subtitle {
         display: block !important;
     }
 
-    .MobilebannerSection.top-heading-marketing.pt-5 {
+    .top-heading-marketingMobilebannerSection.pt-5 {
     /* background-color: #3793d7; */
     background: url(img/Mobile-Banner.jpg);
     height: auto;
@@ -1171,6 +1171,6 @@ footer#footer img {
     margin-bottom: 20px;
 }
 
-.MobilebannerSection{
+.top-heading-marketingMobilebannerSection{
   display: none;
 }
