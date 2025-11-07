@@ -1089,6 +1089,19 @@ p.sht__subtitle {
         padding: 60px 0;
       }
 
+      .sht__titleMobile.fw-bold {
+    font-size: 30px;
+}
+
+p.sht__subtitle {
+    font-size: 18px;
+}
+
+.btn-mark-cl .btn-header-tted-body {
+    padding: 10px 17px;
+    font-size: 16px !important;
+}
+
       .top-heading-marketing.pt-5 {
     display: none !important;
 }
