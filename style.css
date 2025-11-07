@@ -820,7 +820,15 @@ p.sht__subtitle {
     .MobilebannerSection {
         display: block !important;
     }
-    
+
+    .MobilebannerSection.top-heading-marketing.pt-5 {
+    /* background-color: #3793d7; */
+    background: url(img/Mobile-Banner.png);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
     }
 
      /* Section Styling */
