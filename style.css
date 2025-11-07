@@ -1093,10 +1093,11 @@ p.sht__subtitle {
     font-size: 30px;
 }
 
-p.sht__subtitle {
-    font-size: 18px !important;
-    margin-bottom: 0 !important;
-}
+    p.sht__subtitle {
+        font-size: 18px !important;
+        margin-bottom: 0 !important;
+        margin-top: 10px !important;
+    }
 
 .btn-mark-cl .btn-header-tted-body {
     padding: 10px 20px !important;
