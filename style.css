@@ -565,7 +565,8 @@
  /* banner Css */
 
  .top-heading-marketing.pt-5 {
-    background-color: #3793d7;
+    /* background-color: #3793d7; */
+        background: url(img/Banner.png);
 }
 
 .sht__title.fw-bold {
