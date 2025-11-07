@@ -569,6 +569,7 @@
     background: url(img/Banner.png);
     height: 600px;
     background-size: cover;
+    background-position: center;
 }
 
 .sht__title.fw-bold {
@@ -1130,6 +1131,7 @@ p.sht__subtitle {
     background: url(img/Banner.png);
     height: auto;
     background-size: cover;
+    background-position: center;
 }
 
     }
