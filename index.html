@@ -30,7 +30,7 @@
         <!-- Top Contact Bar -->
         <div class="top-head">
             <div class="container-fluid d-flex justify-content-between align-items-center px-4 topaheadDiv">
-                <div class="topheader">                 
+                <div class="topheader">
                     <a href="mailto:info@airwaysmanagebooking.com">info@airwaysmanagebooking.com</a>
                 </div>
                 <div class="d-flex align-items-center">
@@ -440,16 +440,17 @@
     <footer id="footer">
         <div class="container">
             <div class="row justify-content-between">
-                 <!-- About -->
+                <!-- About -->
                 <div class="col-lg-3 col-md-12 btm-block">
                     <img src="img/logo.png" alt="Airways Logo">
                     <div class="btm-hd">About Us</div>
-                    <p>Airways Booking is here to make your travel plans real. We have a variety of services, including car
+                    <p>Airways Booking is here to make your travel plans real. We have a variety of services, including
+                        car
                         rentals, cruises, flights, and hotels. Enjoy the best value at the lowest cost with our lowest
                         fare promise. We provide pricing comparisons, immediate refunds, rebooking choices, and a ton of
                         other fascinating features.</p>
                 </div>
-               
+
                 <!-- Services -->
                 <div class="col-lg-2 col-md-6 btm-block">
                     <div class="btm-hd">Services</div>
@@ -496,12 +497,13 @@
                     </ul>
                 </div>
 
-                 <!-- Contact -->
+                <!-- Contact -->
                 <div class="col-lg-2 col-md-6 btm-block">
                     <div class="btm-hd">Contact Us</div>
                     <ul class="list-unstyled">
                         <li><i class="fa-solid fa-location-dot"></i> Airfare Services USA<br>LLC, 8 The Green, Suite A,
-                            <br>Dover, Kent, Delaware 19901</li>
+                            <br>Dover, Kent, Delaware 19901
+                        </li>
                         <li><i class="fa-solid fa-phone"></i> <a href="tel:+1-888-838-0309">+1-888-838-0309</a></li>
                         <li><i class="fa-solid fa-envelope"></i> <a
                                 href="mailto:support@zeptoair.com">support@zeptoair.com</a></li>
@@ -520,7 +522,8 @@
             </div>
 
             <div class="text-center ex-small">
-                All users agree to Airways Booking <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.
+                All users agree to Airways Booking <a href="#">Terms & Conditions</a> and <a href="#">Privacy
+                    Policy</a>.
             </div>
 
             <div class="text-center ex-small mb-4">
@@ -535,9 +538,28 @@
         </div>
 
         <!-- Scroll to Top -->
-        <button class="scroll-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        <button class="scroll-top" id="scrollTopBtn">
             <i class="fa-solid fa-arrow-up"></i>
         </button>
+
+
+        <script>
+            const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 300) {
+                    scrollTopBtn.classList.add('show');
+                    scrollTopBtn.classList.remove('hide');
+                } else {
+                    scrollTopBtn.classList.add('hide');
+                    scrollTopBtn.classList.remove('show');
+                }
+            });
+
+            scrollTopBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        </script>
     </footer>
 
     <!-- Footer Section End -->

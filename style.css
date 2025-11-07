@@ -691,6 +691,18 @@ p.sht__subtitle {
      background-color: #02005c;
  }
 
+ .scroll-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.scroll-top.hide {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+}
+
  .pages h3 {
      margin: 15px 0 5px 0;
      font-size: 22px;
