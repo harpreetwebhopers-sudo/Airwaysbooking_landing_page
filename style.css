@@ -816,6 +816,13 @@ p.sht__subtitle {
       .discover-content h2 {
         font-size: 1.6rem;
       }
+
+      .sht__titleMobile{
+        display: block;
+      }
+      .sht__title{
+        display: none;
+      }
     }
 
      /* Section Styling */
@@ -1152,4 +1159,8 @@ p.sht__subtitle {
 
 footer#footer img {
     margin-bottom: 20px;
+}
+
+.sht__titleMobile{
+  display: none;
 }
