@@ -1122,7 +1122,7 @@ p.sht__subtitle {
     }
 
 @media (max-width: 992px) {
-.pages {
+#car_rentals .pages {
     margin-bottom: 30px;
 }
 }
