@@ -817,12 +817,10 @@ p.sht__subtitle {
         font-size: 1.6rem;
       }
 
-      .sht__titleMobile{
+    .MobilebannerSection {
         display: block !important;
-      }
-      .sht__title{
-        display: none !important;
-      }
+    }
+    
     }
 
      /* Section Styling */
@@ -1161,6 +1159,6 @@ footer#footer img {
     margin-bottom: 20px;
 }
 
-.sht__titleMobile{
+.MobilebannerSection{
   display: none;
 }
