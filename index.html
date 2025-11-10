@@ -18,11 +18,25 @@
 </head>
 <script>
     document.querySelectorAll('.nav-item.dropdown').forEach(function (dropdown) {
-        dropdown.addEventListener('mouseleave', function () {
-            const menu = this.querySelector('.dropdown-menu');
-            if (menu) menu.classList.remove('show');
+    const toggle = dropdown.querySelector('.nav-link');
+    const menu = dropdown.querySelector('.dropdown-menu');
+
+    if (toggle && menu) {
+        // Open dropdown on hover
+        dropdown.addEventListener('mouseenter', function () {
+            if (!menu.classList.contains('show')) {
+                toggle.click(); // Trigger Bootstrap's click event
+            }
         });
-    });
+
+        // Close dropdown on mouse leave
+        dropdown.addEventListener('mouseleave', function () {
+            if (menu.classList.contains('show')) {
+                toggle.click(); // Trigger click again to close
+            }
+        });
+    }
+});
 </script>
 
 <body>
