@@ -953,7 +953,7 @@ p.sht__subtitle {
     .support-contact i {
       font-size: 24px;
       margin-right: 10px;
-      color: #0b1d33;
+      color: #02005c;
     }
 
     .support-contact a {
@@ -1217,4 +1217,9 @@ footer#footer img {
     background-color: #3793d7;
     color: #fff;
     transform: translateY(-3px);
+}
+
+i.fa-solid.fa-headset {
+    font-size: 25px;
+    color: #02005c;
 }
