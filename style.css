@@ -953,7 +953,7 @@ p.sht__subtitle {
     .support-contact i {
       font-size: 24px;
       margin-right: 10px;
-      color: #02005c;
+      color: #fff;
     }
 
     .support-contact a {
@@ -1221,5 +1221,5 @@ footer#footer img {
 
 i.fa-solid.fa-headset {
     font-size: 25px;
-    color: #02005c;
+    color: #fff;
 }
