@@ -17,24 +17,12 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-  if (window.innerWidth > 991) {
-    document.querySelectorAll('.navbar .dropdown').forEach(function(dropdown){
-      dropdown.addEventListener('mouseenter', function() {
-        const menu = this.querySelector('.dropdown-menu');
-        if(menu){
-          new bootstrap.Dropdown(this.querySelector('[data-bs-toggle="dropdown"]')).show();
-        }
-      });
-      dropdown.addEventListener('mouseleave', function() {
-        const menu = this.querySelector('.dropdown-menu');
-        if(menu){
-          new bootstrap.Dropdown(this.querySelector('[data-bs-toggle="dropdown"]')).hide();
-        }
-      });
+    document.querySelectorAll('.nav-item.dropdown').forEach(function (dropdown) {
+        dropdown.addEventListener('mouseleave', function () {
+            const menu = this.querySelector('.dropdown-menu');
+            if (menu) menu.classList.remove('show');
+        });
     });
-  }
-});
 </script>
 
 <body>
